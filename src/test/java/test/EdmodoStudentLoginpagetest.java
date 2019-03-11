@@ -30,6 +30,11 @@ public class EdmodoStudentLoginpagetest extends Setrup {
 	public void example(){
 		System.out.println("vidya Ocean");
 	}
+	@Test
+	public void example2(){
+		System.out.println("vidya ");
+	}
+
 	@AfterMethod
 	public void close(){
 		driver.close();
