@@ -26,6 +26,10 @@ public class EdmodoStudentLoginpagetest extends Setrup {
 		Thread.sleep(3000);
 		screenShot("C:/Users/JV/Desktop/Workspace/EdmodoStudent/sreenshotoutput/tc1.png");
 	}
+	@Test
+	public void example(){
+		System.out.println("vidya Ocean");
+	}
 	@AfterMethod
 	public void close(){
 		driver.close();
